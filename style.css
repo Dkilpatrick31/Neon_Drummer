@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background: url(img/black-n-white-beach-1440x900.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(32,44,69,.32),rgba(32,44,69,.21)),url(image/image1.jpg) !important;
+  background-position: center; */
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  border: .4rem solid black;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 1px solid red;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+}
+
+.playing {
+
+}
+
+kbd {
+  /* display: block;
+  font-size: 4rem; */
+}
