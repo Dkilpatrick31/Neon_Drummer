@@ -7,46 +7,65 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="keys">
-      <div data-key="65" class="key">
-        <kbd>A</kbd>
-        <span class="sound">Bell</span>
-      </div>
-      <div data-key="83" class="key">
-        <kbd>S</kbd>
-        <span class="sound">Hit</span>
-      </div>
-      <div data-key="68" class="key">
-        <kbd>D</kbd>
-        <span class="sound">Flutter</span>
-      </div>
-      <div data-key="70" class="key">
-        <kbd>F</kbd>
-        <span class="sound">Mouth</span>
-      </div>
-      <div data-key="71" class="key">
-        <kbd>G</kbd>
-        <span class="sound">Multi Hit</span>
-      </div>
-      <div data-key="72" class="key">
-        <kbd>H</kbd>
-        <span class="sound">Pound</span>
-      </div>
-      <div data-key="74" class="key">
-        <kbd>J</kbd>
-        <span class="sound">Rattle</span>
-      </div>
-      <div data-key="75" class="key">
-        <kbd>K</kbd>
-        <span class="sound">Tap</span>
-      </div>
-      <div data-key="76" class="key">
-        <kbd>L</kbd>
-        <span class="sound">Bell 2</span>
+    <div class="container">
+      <header>
+        <div class="dropdown">
+          <button type="button" onclick="myFunction()" class="dropdownButton" name="button">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Classical</a>
+            <a href="#">Electronic</a>
+            <a href="#">Hip Hop</a>
+          </div>
+        </div>
+      </header>
+
+
+      <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">bell</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">hit</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">flutter</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">mouth</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">multi hit</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">pound</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">rattle</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">tap</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">bell 2</span>
+        </div>
       </div>
     </div>
 
+<<<<<<< HEAD
     <audio data-key="65" src="sounds/Bells/Bell-1.wav" allow="autoplay"></audio>
+=======
+
+    <audio data-key="65" src="sounds/Bells/Bell-1.wav"></audio>
+>>>>>>> 4141ec733fe78f5400b1cbbcfea98acc8f13db4e
     <audio data-key="83" src="sounds/Hits/Hit-1.wav"></audio>
     <audio data-key="68" src="sounds/Misc/Flutter-1.wav"></audio>
     <audio data-key="70" src="sounds/Mouth/Mouth-1.wav"></audio>
