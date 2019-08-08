@@ -15,10 +15,6 @@ kbd {
   font-size: 4rem;
 }
 
-.container {
-
-}
-
 .keys {
   display: flex;
   flex: 1;
