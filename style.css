@@ -12,7 +12,7 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 40px;
 }
 
 .keys {
@@ -29,6 +29,7 @@ kbd {
   color: white;
   padding: 1rem .5rem;
   background: rgba(0,0,0,0.4);
+  transition: all 0.07s;
   text-shadow: 0 0 .5rem black;
   margin: 1rem;
   width: 10rem;
@@ -39,7 +40,7 @@ kbd {
 .playing {
  transform: scale(1.1);
  border-color: #ffc600;
- box-shadow: 0 0 1rem #ffc600;
+ box-shadow: 0 0 10px #ffc600;
 }
 
 .sound {
@@ -51,7 +52,7 @@ kbd {
 
 /* dropdown menu */
 
-header {
+/* header {
   display: flex;
   justify-content: center;
 }
@@ -104,4 +105,4 @@ header {
 
 .show {
   display: block;
-}
+} */
